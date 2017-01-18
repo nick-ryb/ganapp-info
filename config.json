@@ -1,0 +1,14 @@
+{
+  "host": "mongodb://mustang53:l77n18b82@ds029051.mongolab.com:29051",
+  "dbname": "sadik",
+
+  "twilio" : {
+    "TWILIO_ACCOUNT_SID" :"AC3666c6069338d30305e298faf216918a",
+    "TWILIO_AUTH_TOKEN" : "{{ fb1107ea86f52f6cba18a56347286036 }}"
+  } ,
+
+  "postmark": {
+    "POSTMARK_API_TOKEN" : "7b4acf7a-8db3-436a-bb54-09c67414919d",
+    "fromEmail" : "natan@sadik.t15.org"
+  }
+}

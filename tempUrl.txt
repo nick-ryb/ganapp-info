@@ -1,0 +1,4 @@
+"C:\"Program Files"\"MongoDB 2.6 Standard"\bin"
+J:\My Working ProjectZ\Sadik-dev\sadik-dev
+mongod --dbpath=k:/ganapp-info/data --port 27017
+3550
