@@ -2,3 +2,9 @@
 J:\My Working ProjectZ\Sadik-dev\sadik-dev
 mongod --dbpath=k:/ganapp-info/data --port 27017
 3550
+
+
+
+json-server --watch db.json //work with local JSON
+
+mongod --dbpath=/data //start mongo local

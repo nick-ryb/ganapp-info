@@ -1,12 +1,11 @@
 //TODO
 
-*analytics for who entered and where did he go
+*Google analytics for who entered and where did he go
 
 *messages board + db for that
 
 *minification for production upload : https://www.jetbrains.com/webstorm/help/minifying-javascript.html
 
-*Google analytics
 
 *sms & mail integration
 
@@ -16,3 +15,7 @@
 *domain purchase
 sadiks.com
 sadiks.co.il
+
+*accessibility - screen readers and etc.
+
+web app - full screen

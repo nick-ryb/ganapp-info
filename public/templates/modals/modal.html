@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="sadikApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sadik App</title>
+
+<link rel="stylesheet" href="../templates/modals/modal.css">
+
+    <script src="../javascripts/jquery.min.js"></script><!-- load jquery -->
+<script src="../javascripts/angular.min.js"></script>
+<script src="../javascripts/angular-modal-service.js"></script>
+<script src="../javascripts/bootstrap.js"></script>
+<script src="../templates/modals/modal.js"></script>
+
+</head>
+<body >
+<div class="container" ng-controller="modalController">
+    <h3>Angular Modal Service</h3>
+    <a class="btn btn-default" ng-click="show()">Show a Modal</a>
+    <p>{{message}}</p>
+    <!-- The actual modal template, just a bit o bootstrap -->
+    <script type="text/ng-template" id="modal.html">
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" ng-click="close('Cancel')" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Yes or No?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>It's your call...</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" ng-click="close('No')" class="btn btn-default" data-dismiss="modal">No</button>
+                        <button type="button" ng-click="close('Yes')" class="btn btn-primary" data-dismiss="modal">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+</div>
+</body>
+</html>

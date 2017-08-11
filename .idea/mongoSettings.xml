@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="authenticationDatabase" value="system.users" />
+          <option name="label" value="sadik@mongolab" />
+          <option name="password" value="l77n18b82" />
+          <option name="serverUrls">
+            <list>
+              <option value="ds055855.mlab.com:55855" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="userDatabase" value="ganapp" />
+          <option name="username" value="mustang53" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="label" value="LocalDB" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:27017" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+        </ServerConfiguration>
+      </list>
+    </option>
+    <option name="shellPath" value="C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe" />
+  </component>
+</project>
